@@ -1,7 +1,72 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\codeline User\\OneDrive\\Desktop\\ClinicSytsem\\ClinicSystem\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\projects\\ClinicSytsem\\ClinicSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\repository\\bookingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:repository\\bookingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\repository\\clinirepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:repository\\clinirepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\repository\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:repository\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\services\\clinicservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:services\\clinicservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\services\\bookingsrevices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:services\\bookingsrevices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\ClinicSytsem\\ClinicSystem\\Migrations\\20241205103409_IntialCREATE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241205103409_IntialCREATE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:models\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\controller\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:controller\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\controller\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:controller\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\controller\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:controller\\cliniccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|c:\\projects\\clinicsytsem\\clinicsystem\\services\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6AF1388-FAC8-46C2-995F-425ACBD6F818}|ClinicSystem.csproj|solutionrelative:services\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +74,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241205103409_IntialCREATE.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Migrations\\20241205103409_IntialCREATE.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241205103409_IntialCREATE.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Migrations\\20241205103409_IntialCREATE.cs",
+              "RelativeToolTip": "Migrations\\20241205103409_IntialCREATE.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:34:09.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T10:23:36.542Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbcontext.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\AppDbcontext.cs",
+              "RelativeDocumentMoniker": "AppDbcontext.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\AppDbcontext.cs",
+              "RelativeToolTip": "AppDbcontext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:20:59.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bookingController.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Controller\\bookingController.cs",
+              "RelativeDocumentMoniker": "Controller\\bookingController.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Controller\\bookingController.cs",
+              "RelativeToolTip": "Controller\\bookingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:20:00.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Controller\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controller\\PatientController.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Controller\\PatientController.cs",
+              "RelativeToolTip": "Controller\\PatientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:19:39.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClinicController.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Controller\\ClinicController.cs",
+              "RelativeDocumentMoniker": "Controller\\ClinicController.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Controller\\ClinicController.cs",
+              "RelativeToolTip": "Controller\\ClinicController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:19:17.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:00:33.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bookingSrevices.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Services\\bookingSrevices.cs",
+              "RelativeDocumentMoniker": "Services\\bookingSrevices.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Services\\bookingSrevices.cs",
+              "RelativeToolTip": "Services\\bookingSrevices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:00:25.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PatientServices.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Services\\PatientServices.cs",
+              "RelativeDocumentMoniker": "Services\\PatientServices.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Services\\PatientServices.cs",
+              "RelativeToolTip": "Services\\PatientServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:00:08.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClinicServices.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Services\\ClinicServices.cs",
+              "RelativeDocumentMoniker": "Services\\ClinicServices.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Services\\ClinicServices.cs*",
+              "RelativeToolTip": "Services\\ClinicServices.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:59:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingRepo.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Repository\\BookingRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\BookingRepo.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Repository\\BookingRepo.cs*",
+              "RelativeToolTip": "Repository\\BookingRepo.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:59:17.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CliniRepo.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Repository\\CliniRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\CliniRepo.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Repository\\CliniRepo.cs*",
+              "RelativeToolTip": "Repository\\CliniRepo.cs*",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:59:03.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientRepo.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Repository\\PatientRepo.cs",
+              "RelativeDocumentMoniker": "Repository\\PatientRepo.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\Repository\\PatientRepo.cs*",
+              "RelativeToolTip": "Repository\\PatientRepo.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:58:53.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\models\\Clinic.cs",
+              "RelativeDocumentMoniker": "models\\Clinic.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\models\\Clinic.cs",
+              "RelativeToolTip": "models\\Clinic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:58:35.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "booking.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\models\\booking.cs",
+              "RelativeDocumentMoniker": "models\\booking.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\models\\booking.cs",
+              "RelativeToolTip": "models\\booking.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:58:25.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\projects\\ClinicSytsem\\ClinicSystem\\models\\Patient.cs",
+              "RelativeDocumentMoniker": "models\\Patient.cs",
+              "ToolTip": "C:\\projects\\ClinicSytsem\\ClinicSystem\\models\\Patient.cs",
+              "RelativeToolTip": "models\\Patient.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwBMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:58:17.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
