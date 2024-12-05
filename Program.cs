@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+
 namespace ClinicSystem
 {
     public class Program
@@ -7,6 +9,9 @@ namespace ClinicSystem
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
+            builder.Services.AddDbContext<AppDbcontext>(options =>
+                   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Add services to the container.
 
             builder.Services.AddControllers();
