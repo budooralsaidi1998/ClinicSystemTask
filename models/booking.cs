@@ -9,7 +9,12 @@ namespace ClinicSystem.models
     [PrimaryKey(nameof(pid), nameof(cid),nameof(date))]
     public class booking
     {
-      public DateTime  date { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int bookid { get; set; }
+
+        [Required]
+
+        public DateTime  date { get; set; }
 
         [Required]
         public int slot_number { get; set; }

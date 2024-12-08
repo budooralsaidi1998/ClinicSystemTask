@@ -24,6 +24,11 @@ namespace ClinicSystem.Repository
             _context.SaveChanges();
         }
 
+        public List<Patient> GetIDPatient(string name)
+        {
+            return _context.patients.Where(u => u.pname == name).ToList();
+        }
+
 
     }
 }

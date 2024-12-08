@@ -1,4 +1,6 @@
 
+using ClinicSystem.Repository;
+using ClinicSystem.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClinicSystem
@@ -13,7 +15,12 @@ namespace ClinicSystem
             builder.Services.AddDbContext<AppDbcontext>(options =>
                    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Add services to the container.
-
+            builder.Services.AddScoped<IbookingSrevices, bookingSrevices>();
+            builder.Services.AddScoped<IClinicServices, ClinicServices>();
+            builder.Services.AddScoped<IPatientServices, PatientServices>();
+            builder.Services.AddScoped<IBookingRepo, BookingRepo>();
+            builder.Services.AddScoped<IPatientRepo, PatientRepo>();
+            builder.Services.AddScoped<ICliniRepo, CliniRepo>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

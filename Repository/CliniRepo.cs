@@ -24,6 +24,12 @@ namespace ClinicSystem.Repository
             _context.SaveChanges();
         }
 
+        public List<Clinic> GetClinicsBySpecialization(string specialization)
+        {
+            return _context.clinics
+                .Where(c => c.spe == specialization)
+                .ToList();
+        }
 
 
     }

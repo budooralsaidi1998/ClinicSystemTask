@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ClinicSystem.Services
 {
-    public class ClinicServices
+    public class ClinicServices : IClinicServices
     {
 
         private readonly ICliniRepo _clinicRepo;
@@ -21,19 +21,48 @@ namespace ClinicSystem.Services
 
         }
 
-
-        public int  AddClinic(Clinic clinic)
+        public string AddClinic(Clinic clinic)
         {
-       
-           
+            if (string.IsNullOrWhiteSpace(clinic.spe))
+            {
+                throw new ArgumentException("speclication is  required.");
+            }
 
 
 
-            return _clinicRepo.Add(clinic);
+            if (clinic.num_of_slots >= 20)
+            {
+                throw new ArgumentException("maxmum is 20");
+            }
+
+
+            _clinicRepo.Add(clinic);
+
+            return "Added Successfully.";
         }
 
+        public List<Clinic> GetAllClinic()
+        {
+            var clinicview = _clinicRepo.ViewClinic().OrderByDescending(b => b.num_of_slots).ToList();
+            if (clinicview == null || clinicview.Count == 0)
+            {
+                throw new InvalidOperationException("No clinic found.");
+            }
+            return clinicview;
+        }
 
-       
+        public List<Clinic> GetClinicsBySpecialization(string specialization)
+        {
+            var clinics = _clinicRepo.ViewClinic().Where(c => c.spe == specialization).ToList();
+
+            if (clinics.Count == 0)
+            {
+                throw new InvalidOperationException("No clinics found with the given specialization.");
+            }
+
+            return clinics;
+        }
+
 
     }
 }
