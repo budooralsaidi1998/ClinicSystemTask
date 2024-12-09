@@ -50,11 +50,13 @@ namespace ClinicSystem.Services
                 pid = patient.Pid,
                 cid = clinic.Id,
                 date = date,
-                slot_number = slotNumber +1
+                slot_number = slotNumber
             };
 
-            _bookingrepo.Add(booking);
 
+
+            _bookingrepo.Add(booking);
+            _clinicservice.UpdateAvailableSlots(clinicId);
             return "Appointment booked successfully.";
         }
 
