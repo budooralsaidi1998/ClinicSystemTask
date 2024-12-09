@@ -18,7 +18,7 @@ namespace ClinicSystem.Controller
 
 
 
-        [HttpPost]
+        [HttpPost("AddPatient")]
         public IActionResult AddPatient(string name, int age, string gender)
         {
             try
@@ -37,6 +37,20 @@ namespace ClinicSystem.Controller
                 });
 
                 return Created(string.Empty, newPatient);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GetAllPatient")]
+        public IActionResult GetAllClinic()
+        {
+            try
+            {
+                var clinic = _PatientService.GetAllPatient();
+                return Ok(clinic);
             }
             catch (Exception ex)
             {

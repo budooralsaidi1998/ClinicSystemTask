@@ -31,6 +31,27 @@ namespace ClinicSystem.Repository
                 .ToList();
         }
 
+        public Clinic GetClinicsBySpecializationOneSPE(string specializationn)
+        {
+            return _context.clinics
+                .FirstOrDefault(c => c.spe == specializationn)
+                ;
+        }
+        public void updateClinicSlots(string specializationn, int newSlotCount)
+        {
+            // Retrieve the clinic by specialization
+            var currentClinic = GetClinicsBySpecializationOneSPE(specializationn);
 
+            if (currentClinic != null)
+            {
+
+                currentClinic.num_of_slots = newSlotCount;
+
+
+                _context.Update(currentClinic);
+                _context.SaveChanges();
+            }
+
+        }
     }
 }

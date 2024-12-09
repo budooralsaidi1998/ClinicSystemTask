@@ -63,6 +63,28 @@ namespace ClinicSystem.Services
             return clinics;
         }
 
+        public void UpdateAvailableSlots(int clinicId)
+        {
+            var clinic = _clinicRepo.ViewClinic().FirstOrDefault(c => c.Id == clinicId);
+            if (clinic == null)
+            {
+                throw new InvalidOperationException("Clinic not found.");
+            }
+
+
+            if (clinic.num_of_slots > 0)
+            {
+                clinic.num_of_slots -= 1;
+                _clinicRepo.updateClinicSlots(clinic.spe, clinic.num_of_slots);
+            }
+            else
+            {
+                throw new InvalidOperationException("No available slots left.");
+            }
+        }
+
+
+
 
     }
 }
